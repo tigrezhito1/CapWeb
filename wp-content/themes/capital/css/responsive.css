@@ -1,0 +1,151 @@
+@media only screen and (max-width : 1200px){
+    #Home{
+        padding-top: 100px;
+    }
+    
+    .navbar .nav{
+        padding-top: 150px !important;
+    }
+    
+    .navbar .nav li{
+        padding: 15px 38px !important;
+    }
+    
+    .navbar .nav li:first-child{
+        padding: 15px 30px 15px 20px !important;
+    }
+    
+    .navbar .nav li:last-child{
+        padding: 15px 0px 15px 30px !important;
+    }
+    
+    .navbar.shrink .nav{
+        padding-top: 15px !important;
+    }
+    
+    .navbar.shrink .nav li{
+        padding: 15px 18px !important;
+    }
+    
+    #services #service-1 #responsiveTabsDemo .tabs-bg, #about-us-1 .tabs-bg{
+        padding: 15px 20px;
+    }
+    
+    #img-oportunidades{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;    
+    }
+}
+
+@media only screen and (max-width : 992px){
+    .navbar-brand img{
+        width: 200px !important;
+    }
+    
+    .topbar{
+        display: block !important;
+        z-index: 99999;
+    }
+    
+    .frase-topbar{
+        font-size: 18px !important;
+        padding-top: 0px !important;
+    }
+    
+    .navbar .nav{
+        padding-top: 90px !important;
+    }
+    
+    .navbar .nav li{
+        padding: 15px !important;
+    }
+    
+    .navbar .nav li:first-child{
+        padding: 15px 20px 15px 10px !important;
+    }
+    
+    .navbar .nav li:last-child{
+        padding: 15px 0px 15px 20px !important;
+    }
+    
+    .shrink .navbar-brand img{
+        width: 150px !important;
+    }
+    
+    .navbar.shrink .nav{
+        padding-top: 15px !important;
+    }
+    
+    .navbar.shrink .nav li{
+        padding: 15px 10px !important;
+    }
+    
+    #map-img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .navbar-brand img {
+        width: 170px !important;    
+    }
+    
+    .topbar{
+        z-index: inherit;
+        padding: 15px 0px 0px 0px !important;
+        padding-top: 1px !important;
+    }
+    
+    .topbar .pull-right img{
+        width: 180px !important;
+    }
+    
+    .navbar-brand{
+        padding: 20px 15px 20px 15px;
+    }
+    
+    .topbar .pull-right{
+        display: none;
+    }
+    
+    .navbar .side-menu-button{
+        top: 25px;
+        background-color: #0066A6;
+    }
+    
+    .navbar .side-menu-button.actives .fa,
+    .navbar .sidenav ul > li.active a{
+        color: #0066A6;
+    }
+    
+    .navbar.shrink .side-menu-button{
+        top: 15px;
+        background-color: #FFF;        
+    }
+    
+    .navbar.shrink .side-menu-button i{
+        color: #0066A6;
+    }
+    
+    .navbar.shrink .nav li a{
+        color: #6a6a6a;
+    }   
+    
+    #contact-us #contact-us2 .left-section #countries ul li{
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #services #service-3, #about-us #about-us-1{
+        background-attachment: initial !important;
+    }
+}
+
+@media only screen and (max-width : 480px){
+    
+}
+
+@media only screen and (max-width : 320px){
+    
+}
